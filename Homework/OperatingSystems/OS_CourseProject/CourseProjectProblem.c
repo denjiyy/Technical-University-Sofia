@@ -33,8 +33,8 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    printf("успешно изпълнени команди: %d\n", success_count);
-    printf("команди завършили с грешка: %d\n", error_count);
+    printf("Successful commands: %d\n", success_count);
+    printf("Commands that have ended with an error: %d\n", error_count);
 
     return 0;
 }
